@@ -3,7 +3,10 @@
       relink: true
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [code-server --install-extension zhuangtongfa.material-theme, Installing code-server One Dark Pro extension]
+  - command: code-server --install-extension zhuangtongfa.material-theme
+    stdin: true
+    stdout: true
+    description: Installing code-server One Dark Pro extension
 - link:
     ~/.local/share/code-server:
       create: false
