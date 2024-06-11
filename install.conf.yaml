@@ -7,7 +7,6 @@
 - link:
     ~/.local/share/code-server/User:
       create: false
-      force: true
       glob: true
-      path: config/Code/User/*
+      path: code-server/User/*
       relink: true
