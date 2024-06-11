@@ -4,6 +4,7 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [code-server --install-extension zhuangtongfa.material-theme, Installing code-server One Dark Pro extension]
+  - [code-server --install-extension vscodevim.vim, Installing code-server Vim extension]
 - link:
     ~/.local/share/code-server/User:
       create: true
