@@ -3,12 +3,30 @@
       relink: true
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [code-server --install-extension zhuangtongfa.material-theme, Installing code-server One Dark Pro extension]
-  - [code-server --install-extension PKief.material-icon-theme, Installing code-server Material Icon Theme extension]
-  - [code-server --install-extension vscodevim.vim, Installing code-server Vim extension]
-  - [code-server --install-extension sleistner.vscode-fileutils, Installing code-server File Utils extension]
-  - [code-server --install-extension alefragnani.Bookmarks, Installing code-server Bookmarks extension]
-  - [code-server --install-extension mikestead.dotenv, Installing code-server DotENV extension]
+  - command: code-server --install-extension zhuangtongfa.material-theme
+    description: Installing code-server One Dark Pro extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension PKief.material-icon-theme
+    description: Installing code-server Material Icon Theme extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension vscodevim.vim
+    description: Installing code-server Vim extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension sleistner.vscode-fileutils
+    description: Installing code-server File Utils extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension alefragnani.Bookmarks
+    description: Installing code-server Bookmarks extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension mikestead.dotenv
+    description: Installing code-server DotENV extension
+    stdin: true
+    stdout: true
 - link:
     ~/.local/share/code-server/User:
       create: true
