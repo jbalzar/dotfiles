@@ -4,6 +4,7 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
 - link:
-  ~.local/share/code-server/User:
-    create: true
-    path: code-server/User
+    ~/.local/share/code-server/User:
+      create: false
+      path: code-server/User
+      force: true

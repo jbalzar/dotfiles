@@ -220,11 +220,6 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "remote.SSH.remotePlatform": {
-    "coder.webapp.workspace": "linux",
-    "coder.easylink.workspace": "linux",
-    "coder.cs-dashboard.workspace": "linux"
-  },
   "editor.fontSize": 14,
   "terminal.integrated.fontSize": 14,
   "debug.console.fontSize": 14,
