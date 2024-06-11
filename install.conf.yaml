@@ -8,7 +8,8 @@
     stdout: true
     description: Installing code-server One Dark Pro extension
 - link:
-    ~/.local/share/code-server:
-      create: false
-      path: code-server
-      force: true
+    ~/.local/share/code-server/User:
+      create: true
+      glob: true
+      path: config/Code/User/*
+      relink: true
