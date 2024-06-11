@@ -1,0 +1,9 @@
+- defaults:
+    link:
+      relink: true
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+- link:
+  ~.local/share/code-server/User:
+    create: true
+    path: code-server/User
