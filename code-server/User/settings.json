@@ -220,11 +220,12 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.fontSize": 14.5,
-  "terminal.integrated.fontSize": 14.5,
-  "debug.console.fontSize": 14.5,
   "security.promptForRemoteFileProtocolHandling": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "editor.lineHeight": 1.5,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 14,
 }
