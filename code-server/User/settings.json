@@ -3,7 +3,6 @@
   "explorer.openEditors.visible": 1,
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.startupEditor": "newUntitledFile",
   // Editor
   "editor.fontFamily": "JetBrains Mono",
@@ -209,23 +208,54 @@
       "commands": [
         "workbench.action.previousEditor"
       ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "m"
+      ],
+      "commands": [
+        "bookmarks.toggle"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "b"
+      ],
+      "commands": [
+        "bookmarks.list"
+      ]
     }
   ],
   "git.autofetch": true,
   "workbench.activityBar.location": "hidden",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 14,
   "security.promptForRemoteFileProtocolHandling": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "git.confirmSync": false,
   "editor.lineHeight": 1.5,
-  "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
-  "debug.console.fontSize": 14,
+  "workbench.colorTheme": "One Dark Pro",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "remote.SSH.connectTimeout": 1800,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "toggle",
+  "window.customTitleBarVisibility": "auto",
+  "window.titleBarStyle": "custom",
 }
