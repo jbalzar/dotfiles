@@ -27,6 +27,10 @@
     description: Installing code-server PHP Tools extension
     stdin: true
     stdout: true
+  - command: code-server --install-extension MehediDracula.php-namespace-resolver
+    description: Installing code-server PHP Namespace resolver extension
+    stdin: true
+    stdout: true
 
 - link:
     ~/.local/share/code-server/User:
