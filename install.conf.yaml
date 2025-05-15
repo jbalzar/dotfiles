@@ -23,10 +23,11 @@
     description: Installing code-server Bookmarks extension
     stdin: true
     stdout: true
-  - command: code-server --install-extension mikestead.dotenv
-    description: Installing code-server DotENV extension
+  - command: code-server --install-extension DEVSENSE.phptools-vscode
+    description: Installing code-server PHP Tools extension
     stdin: true
     stdout: true
+
 - link:
     ~/.local/share/code-server/User:
       create: true
