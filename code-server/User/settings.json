@@ -261,4 +261,6 @@
       ]
     }
   ],
+  "namespaceResolver.autoSort": false,
+  "namespaceResolver.sortAlphabetically": true,
 }
